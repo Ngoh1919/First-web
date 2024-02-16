@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+html{
+    height:100%;
+}
+/* body */
+body{
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:#000724;
+    color: aliceblue;
+}
+/* header */
+.header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #12324F;
+    
+}
+.bi-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-logo{
+    height: 70px;
+}
+.w-logo{
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px;
+}
+.navbar ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: poppins;
+    padding: 20px;
+
+}
+a:hover{
+    background-color:#000724;
+    text-transform: uppercase;
+
+}
+
+/* sections */
+.section{
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sec-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-2 div{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+.sec-2 h4{
+    margin-right: 0 70px;
+    padding: 12px;
+}
+.rice{
+    width: 200px;
+}
+.fish{
+    width: 200px;
+}
+.sweet{
+    width: 200px;
+
+}
+
+/* footer */
+.footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #12324F;
+}
+.med-log{
+    align-self:center;
+    padding-top: 12px;
+}
+.security{
+    align-self: center;
+}
+.security h4{
+    margin: 5px;
+}
+.rights{
+    align-self: center;
+}
+.rights h4{
+    margin: 5px;
+}
+.utube{
+    width:  20px;
+    height:  20px;
+}
+.wat{
+    width:  20px;
+    height:  20px;     
+}
+.twit{
+    width:  20px;
+    height:  20px;
+}
+
+/* media querry */
+@media(max-width: 517px){
+    .header{
+        width:100%;
+        overflow: hidden;
+    }
+    .w-logo{
+        padding: 12px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar{
+        margin-left: 100px;
+    }
+
+}
+@media(max-width: 380px){
+    .header{
+        width:100%;
+        overflow: hidden;
+    }
+    .w-logo{
+        padding: 12px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar{
+        margin-left: 3px;
+    }
+
+}
