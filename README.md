@@ -1,2 +1,2 @@
 # First-web
-Website made with just htm and css
+Website made with just htm and css.
